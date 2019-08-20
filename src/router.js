@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Home from './views/Home.vue'
 import SignUp from './components/guest/SignUp.vue'
 import SignIn from './components/guest/SignIn.vue'
 import DashboardHome from './components/dashboard/Home.vue'

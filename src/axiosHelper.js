@@ -6,7 +6,7 @@ var jsonUser = user == null ? "" : JSON.parse(user)
 var token =  jsonUser != "" ? jsonUser.api_token : "";
 
 const instance = axios.create({
-    baseURL: 'http://127.0.0.1:8000/api/v1',
+    baseURL: 'http://142.93.26.83/fullstack-task-api/public/',
     headers: {'x-api-key': token, 'Content-Type':'application/json'}
 })
 
