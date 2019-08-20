@@ -3,6 +3,13 @@ import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
 
+import toastr from 'toastr'
+window.toastr = toastr
+
+import 'bootstrap'
+import 'jquery'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 Vue.config.productionTip = false
 
 new Vue({
